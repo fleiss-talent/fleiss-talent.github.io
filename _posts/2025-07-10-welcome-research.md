@@ -1,5 +1,5 @@
 ---
-title: Welcome
+title: Research
 sidebar:
   nav: docs-research
 aside:
@@ -10,4 +10,10 @@ lang: ko
 ---
 
 이 블로그는 "연구" 내용을 기록하기 위한 공간이다.
+
+
+
+
+
+
 
