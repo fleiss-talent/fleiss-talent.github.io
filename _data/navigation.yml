@@ -1,5 +1,17 @@
 header:
   - titles:
+      # @start locale config
+      ko      : &KO       Archive
+      ko-KR   : *KO
+      en      : &EN       Archive
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /archive.html
+    
+  - titles:
       ko      : &KO       Research
       ko-KR   : *KO
       en      : &EN       Research
@@ -19,7 +31,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /archive.html
+    url: //2018/06/01/header-image.html
 
   - titles:
       # @start locale config
@@ -45,31 +57,18 @@ docs-ko:
         
   - title:      Machine Learning
     children:
-      - title: 벡터의 기본 연산(상수배, 덧셈)
-        url: 2020/09/07/basic_vector_operation.html
-      - title:  행렬 곱에 대한 또 다른 시각
-        url:    2020/09/08/matrix_multiplication.html
-      - title:  행벡터의 의미와 벡터의 내적
-        url:    2020/09/09/row_vector_and_inner_product.html
+      - title: 
+        url: 
 
   - title:      Deep Learning
     children:
-      - title: 벡터의 기본 연산(상수배, 덧셈)
-        url: 2020/09/07/basic_vector_operation.html
-      - title:  행렬 곱에 대한 또 다른 시각
-        url:    2020/09/08/matrix_multiplication.html
-      - title:  행벡터의 의미와 벡터의 내적
-        url:    2020/09/09/row_vector_and_inner_product.html
+      - title: 
+        url: 
 
   - title:      Reinforcement Learning
     children:
-      - title: 벡터의 기본 연산(상수배, 덧셈)
-        url: 2020/09/07/basic_vector_operation.html
-      - title:  행렬 곱에 대한 또 다른 시각
-        url:    2020/09/08/matrix_multiplication.html
-      - title:  행벡터의 의미와 벡터의 내적
-        url:    2020/09/09/row_vector_and_inner_product.html
-  
+      - title: 
+        url:   
 
 
 
