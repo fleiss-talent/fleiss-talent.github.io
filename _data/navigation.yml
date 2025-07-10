@@ -50,3 +50,9 @@ header:
       tr      : &TR       Hakkında
       # @end locale config
     url: /about.html
+
+docs-ko:
+  - title:      기초 선형대수학 이론
+    children:
+      - title: 벡터의 기본 연산(상수배, 덧셈)
+        url: 2020/09/07/basic_vector_operation.html
