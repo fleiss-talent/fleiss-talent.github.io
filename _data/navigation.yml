@@ -45,6 +45,7 @@ header:
       # @end locale config
     url: 
 
+
 docs-research:
   - title:      Signal Processing
     children:
@@ -71,4 +72,33 @@ docs-research:
         url:   
 
 
+docs-project:
+  - title:      WiFi CSI
+    children:
+      - title: 
+        url: 
+      - title:  
+        url:    
+      - title:  
+        url:    
+
+        
+docs-hobby:
+  - title:      Readings
+    children:
+      - title: 
+        url: 
+      - title:  
+        url:    
+      - title:  
+        url:    
+        
+  - title:      Soccer
+    children:
+      - title: 
+        url: 
+      - title:  
+        url:    
+      - title:  
+        url:    
 
