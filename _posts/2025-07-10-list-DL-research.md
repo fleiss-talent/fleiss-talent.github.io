@@ -10,6 +10,8 @@ lang: ko
 ---
 # 📄 대표 논문들
 
+
+
 ### **1980s ~ 2000s: 태동기**
 
 &emsp;\[1980\] Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position – Fukushima
@@ -17,6 +19,7 @@ lang: ko
 &emsp;\[1986\] Learning representations by back-propagating errors – Rumelhart, Hinton, Williams
 
 &emsp;\[1988\] Gradient-Based Learning Applied to Document Recognition – LeCun et al. (LeNet-5)
+
 
 
 ### <span style="color: brown">**2012 ~ 2014: 딥러닝 대중화 (CNN 중심)**</span>
@@ -32,6 +35,7 @@ lang: ko
 &emsp;\[2014\] Neural Machine Translation by Jointly Learning to Align and Translate – Bahdanau et al. (Attention in Seq2Seq)
 
 
+
 ### <span style="color: brown">**2015 ~ 2017: 구조 혁신과 Transformer 등장**</span>
 
 &emsp;\[2015\] Deep Residual Learning for Image Recognition – He et al. (ResNet)
@@ -41,6 +45,7 @@ lang: ko
 &emsp;\[2015\] Human-level control through deep reinforcement learning – Mnih et al. (DQN)
 
 &emsp;\[2017\] Attention Is All You Need – Vaswani et al. (Transformer)
+
 
 
 ### <span style="color: brown">**2018 ~ 2020: LLM과 사전학습 혁신**</span>
@@ -58,6 +63,7 @@ lang: ko
 &emsp;\[2020\] T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer – Raffel et al.
 
 
+
 ### <span style="color: brown">**2021 ~ 2022: Vision Transformer, 멀티모달, 생성모델 진화**</span>
 
 &emsp;\[2021\] An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale – Dosovitskiy et al. (ViT)
@@ -69,6 +75,7 @@ lang: ko
 &emsp;\[2022\] Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding – Saharia et al. (Imagen, by Google)
 
 &emsp;\[2022\] Flamingo: A Visual Language Model for Few-Shot Learning – DeepMind
+
 
 
 ### <span style="color: brown">**2023 ~ 2024: 멀티모달 대통합 + AGI 전초**</span>
