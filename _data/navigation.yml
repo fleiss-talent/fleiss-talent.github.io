@@ -31,7 +31,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /2018/06/01/header-image.html
+    url: /2025/07/10/welcome-project.html 
 
   - titles:
       # @start locale config
@@ -43,7 +43,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: 
+    url: /2025/07/10/welcome-hobby.html 
 
 
 docs-research:
