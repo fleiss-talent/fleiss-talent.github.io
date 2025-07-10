@@ -5,7 +5,7 @@
 {%- include snippets/get-locale-string.html key='READMORE' -%}
 {%- assign _locale_readmore = __return -%}
 
-{%- assign _sorted_list = include.articles | where: "tags", "include.articles.tags[0] != 'secret'" -%}
+{%- assign _sorted_list = include.articles -%}
 {%- if include.group_by == 'year' -%}
   {%- assign _sorted_list = _sorted_list | sort: 'date' -%}
 {%- endif -%}
@@ -19,7 +19,7 @@
 <div class="article-list items">
 {%- elsif include.type == 'grid' -%}
   {%- if include.size == 'sm' -%}
-  <div class="article-list grid grid--sm grid--p-3">
+  <div class="article-list grid gird--sm grid--p-3">
   {%- else -%}
   <div class="article-list grid grid--p-3">
   {%- endif -%}
