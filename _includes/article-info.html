@@ -16,7 +16,7 @@
     target=site.data.variables.default.page.show_tags
     source0=layout.show_tags source1=include.article.show_tags -%}
   {%- assign _show_tags = __return -%}
-  {%- if _show_tags and include.article.tags[0] and include.article.tags[0] != 'secret' -%}
+  {%- if _show_tags and include.article.tags[0] -%}
     {%- assign _show_tags = true -%}
   {%- else -%}
     {%- assign _show_tags = false -%}
@@ -37,7 +37,8 @@
 
   {%- if _show_tags or _show_author or _show_date or _pageview -%}
     <div class="article__info clearfix">
-      {%- if _show_tags and include.article.tags != "secret" -%}
+      {%- if _show_tags -%}
+
         <ul class="left-col menu">
           {%- assign _tag_path = _paths_archive | append: '?tag=' -%}
           {%- include snippets/prepend-baseurl.html path=_tag_path -%}
@@ -52,6 +53,7 @@
           {%- endfor -%}
         </ul>
       {%- endif -%}
+
       {%- if _show_author or _show_date or _pageview -%}
         <ul class="right-col menu">
           {%- if _show_author  -%}
