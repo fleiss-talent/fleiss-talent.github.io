@@ -1,8 +1,8 @@
 header:
   - titles:
-      ko      : &KO       한국어
+      ko      : &KO       Research
       ko-KR   : *KO
-      en      : &EN       한국어
+      en      : &EN       Research
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -11,58 +11,30 @@ header:
     
   - titles:
       # @start locale config
-      en      : &EN       Archive
+      ko      : &KO       Project
+      ko-KR   : *KO
+      en      : &EN       Project
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  归档
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  歸檔
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       아카이브
-      ko-KR   : *KO
-      fr      : &FR       Archives
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      tr      : &TR       Arşivdekiler
       # @end locale config
     url: /archive.html
 
   - titles:
       # @start locale config
-      en      : &EN       About
+      ko      : &KO       Hobby
+      ko-KR   : *KO
+      en      : &EN       Hobby
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
-      zh      : *ZH_HANS
-      zh-CN   : *ZH_HANS
-      zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
-      zh-TW   : *ZH_HANT
-      zh-HK   : *ZH_HANT
-      ko      : &KO       소개
-      ko-KR   : *KO
-      fr      : &FR       À propos
-      fr-BE   : *FR
-      fr-CA   : *FR
-      fr-CH   : *FR
-      fr-FR   : *FR
-      fr-LU   : *FR
-      tr      : &TR       Hakkında
       # @end locale config
-    url: /about.html
+    url: /archive.html
 
 docs-ko:
-  - title:      기초 선형대수학 이론
+  - title:      Signal Processing
     children:
       - title: 벡터의 기본 연산(상수배, 덧셈)
         url: 2020/09/07/basic_vector_operation.html
@@ -70,3 +42,34 @@ docs-ko:
         url:    2020/09/08/matrix_multiplication.html
       - title:  행벡터의 의미와 벡터의 내적
         url:    2020/09/09/row_vector_and_inner_product.html
+        
+  - title:      Machine Learning
+    children:
+      - title: 벡터의 기본 연산(상수배, 덧셈)
+        url: 2020/09/07/basic_vector_operation.html
+      - title:  행렬 곱에 대한 또 다른 시각
+        url:    2020/09/08/matrix_multiplication.html
+      - title:  행벡터의 의미와 벡터의 내적
+        url:    2020/09/09/row_vector_and_inner_product.html
+
+  - title:      Deep Learning
+    children:
+      - title: 벡터의 기본 연산(상수배, 덧셈)
+        url: 2020/09/07/basic_vector_operation.html
+      - title:  행렬 곱에 대한 또 다른 시각
+        url:    2020/09/08/matrix_multiplication.html
+      - title:  행벡터의 의미와 벡터의 내적
+        url:    2020/09/09/row_vector_and_inner_product.html
+
+  - title:      Reinforcement Learning
+    children:
+      - title: 벡터의 기본 연산(상수배, 덧셈)
+        url: 2020/09/07/basic_vector_operation.html
+      - title:  행렬 곱에 대한 또 다른 시각
+        url:    2020/09/08/matrix_multiplication.html
+      - title:  행벡터의 의미와 벡터의 내적
+        url:    2020/09/09/row_vector_and_inner_product.html
+  
+
+
+
