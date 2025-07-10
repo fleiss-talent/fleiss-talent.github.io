@@ -4,7 +4,7 @@ sidebar:
   nav: docs-research
 aside:
   toc: true
-key: 20250710
+key: 20250710_01
 tags: 
 lang: ko
 ---
