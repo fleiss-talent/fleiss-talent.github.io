@@ -10,9 +10,7 @@ lang: ko
 ---
 # 📄 대표 논문들
 
-
-
-### **1980s ~ 2000s: 태동기**
+### <span style="color: brown">**1980s ~ 2000s: 태동기**</span>
 
 &emsp;\[1980\] Neocognitron: A self-organizing neural network model for a mechanism of pattern recognition unaffected by shift in position – Fukushima
 
