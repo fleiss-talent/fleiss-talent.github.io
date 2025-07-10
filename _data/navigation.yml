@@ -1,5 +1,15 @@
 header:
   - titles:
+      ko      : &KO       한국어
+      ko-KR   : *KO
+      en      : &EN       한국어
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+    url: /2018/07/01/welcome.html  
+    
+  - titles:
       # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
