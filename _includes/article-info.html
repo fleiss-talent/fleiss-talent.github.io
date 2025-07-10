@@ -37,7 +37,7 @@
 
   {%- if _show_tags or _show_author or _show_date or _pageview -%}
     <div class="article__info clearfix">
-      {%- if _show_tags and include.article.tags != "secret" -%}  {# 'secret' 태그가 없을 때만 출력 #}
+      {%- if _show_tags and include.article.tags != "secret" -%}
         <ul class="left-col menu">
           {%- assign _tag_path = _paths_archive | append: '?tag=' -%}
           {%- include snippets/prepend-baseurl.html path=_tag_path -%}
