@@ -62,9 +62,9 @@ docs-research:
         url: 
 
   - title:      Deep Learning
-    children:
-      - title: 
-        url: 
+    children: 
+      - title:  DL Overview 
+        url:    /2025/07/10/list/DL/research.html
 
   - title:      Reinforcement Learning
     children:
