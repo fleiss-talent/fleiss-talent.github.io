@@ -47,6 +47,7 @@ header:
 
 
 docs-research:
+  url: /2025/07/10/welcome-research.html
   - title:      Signal Processing
     children:
       - title: 
