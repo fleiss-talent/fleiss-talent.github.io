@@ -25,12 +25,11 @@
     {%- for _tag in _tags -%}
       {%- assign _tag_cur_size = _tag[1].size -%}
 
-    # 비밀 태그 필터링:
+    <--! 비밀 태그 필터링: -->
       {%- comment %} 비밀 태그('secret')를 제외 {%- endcomment %}
       {%- if _tag[0] == 'secret' %}
         {%- continue %}  {# 비밀 태그는 건너뛰기 #}
       {%- endif -%}
-    #
     
       {%- assign _tag_min_1 = _tag_min_size -%}
       {%- assign _tag_max_1 = _tag_min_1 | plus: _tag_gap_size -%}
