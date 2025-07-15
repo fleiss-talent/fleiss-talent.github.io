@@ -19,19 +19,19 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-    url: /2025/07/10/welcome-research.html 
+    url: /Research/2025/07/10/welcome-research.html 
     
   - titles:
       # @start locale config
-      ko      : &KO       Project
+      ko      : &KO       Projects
       ko-KR   : *KO
-      en      : &EN       Project
+      en      : &EN       Projects
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /2025/07/10/welcome-projects.html 
+    url: Projects//2025/07/10/welcome-projects.html 
 
   - titles:
       # @start locale config
@@ -43,7 +43,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /2025/07/10/welcome-hobby.html 
+    url: Hobby/2025/07/10/welcome-hobby.html 
 
 
 docs-research:
@@ -64,7 +64,7 @@ docs-research:
   - title:      Deep Learning
     children: 
       - title:  DL Overview 
-        url:    2025/07/10/list_DL_research.html
+        url:    Research/DeepLearning/2025/07/10/list_DL_research.html
 
   - title:      Reinforcement Learning
     children:
