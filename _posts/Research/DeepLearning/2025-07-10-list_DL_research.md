@@ -1,5 +1,6 @@
 ---
 title: List of Deep Learning Papers
+permalink: /Research/2025-07-10-list_DL_research.html
 sidebar:
   nav: docs-research
 aside:
