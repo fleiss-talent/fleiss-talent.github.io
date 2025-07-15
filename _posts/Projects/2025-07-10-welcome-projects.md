@@ -1,5 +1,6 @@
 ---
 title: Projects
+permalink: /Projects/2025-07-10-welcome-projects.html
 sidebar:
   nav: docs-projects
 aside:
