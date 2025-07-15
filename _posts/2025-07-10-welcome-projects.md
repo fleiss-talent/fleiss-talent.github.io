@@ -1,7 +1,7 @@
 ---
-title: Project
+title: Projects
 sidebar:
-  nav: docs-project
+  nav: docs-projects
 aside:
   toc: true
 key: 20250710_02
