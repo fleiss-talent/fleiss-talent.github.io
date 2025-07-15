@@ -1,6 +1,6 @@
 ---
 title: Research
-permalink: /Research/2025/07/10/welcome-research.html
+permalink: /Research/2025-07-10-welcome-research.html
 sidebar:
   nav: docs-research
 aside:
