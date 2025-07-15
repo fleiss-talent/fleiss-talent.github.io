@@ -1,5 +1,6 @@
 ---
 title: Hobby
+permalink: /Hobby/2025-07-10-welcome-hobby.html
 sidebar:
   nav: docs-hobby
 aside:
