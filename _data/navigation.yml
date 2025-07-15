@@ -31,7 +31,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /2025/07/10/welcome-project.html 
+    url: /2025/07/10/welcome-projects.html 
 
   - titles:
       # @start locale config
