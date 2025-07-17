@@ -45,6 +45,19 @@ header:
       # @end locale config
     url: /Hobby/2025-07-10-welcome-hobby.html 
 
+  - titles:
+     # @start locale config
+      ko      : &KO       Notes
+      ko-KR   : *KO
+      en      : &EN       Notes
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: /Notes/2025-07-17-welcome-notes.html
+
+
 
 docs-research:
   - title:      Signal Processing
@@ -113,3 +126,9 @@ docs-hobby:
       - title:  
         url:    
 
+
+docs-notes:
+  - title:      Notes
+    children:
+      -title:
+      url:
